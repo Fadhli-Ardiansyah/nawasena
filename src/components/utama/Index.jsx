@@ -5,7 +5,7 @@ import VisiMisi from "./VisiMisi";
 import Layanan from "./Layanan";
 import AlurKerja from "./AlurKerja";
 import Paralax from "./Paralax";
-import Footer from "./footer";
+import Footer from "./Bawah";
 
 const Utama = () => {
     return (
