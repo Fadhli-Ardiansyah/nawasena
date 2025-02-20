@@ -1,0 +1,31 @@
+.layanan {
+    padding: 1px;
+    margin-top: 150px;
+    background-image: url(../../../assets/img/bgKotak.png);
+    background-position: center;
+    h1 {
+        margin-bottom: 50px;
+        background: linear-gradient(var(--biru));
+        background-clip: text;
+        color: transparent;
+    }
+    p {
+        color: var(--teks);
+    }
+}
+
+.logo {
+    img {
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+
+.card-layanan {
+    padding: 10px;
+    .judulLayanan {
+        background: linear-gradient(var(--biru));
+        background-clip: text;
+        color: transparent;
+    }
+}

@@ -1,0 +1,19 @@
+.alurKerja {
+    margin-top: 150px;
+}
+
+.judul {
+    background: linear-gradient(var(--biru));
+    background-clip: text;
+    color: transparent;
+}
+
+.pesan {
+    color: var(--teks);
+}
+
+h1 {
+    background: linear-gradient(var(--biru));
+    background-clip: text;
+    color: transparent;
+}

@@ -1,0 +1,37 @@
+.bgJumbotron {
+    padding-top: 30vh;
+    background-image: url(../../../assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    color: white;
+    h1 {
+        font-weight: 500;
+    }
+    p {
+        font-weight: 500;
+    }
+}
+
+.firstTeks {
+    background: linear-gradient(var(--biru));
+    background-clip: text;
+    color: transparent;
+}
+
+.lead {
+    color: var(--kuning);
+}
+
+.btn1 {
+    background-color: #28d146;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+.btn1:hover {
+    background-color: #19a032;
+}

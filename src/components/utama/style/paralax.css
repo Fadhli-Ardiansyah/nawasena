@@ -1,0 +1,26 @@
+.paralax {
+    .bgParalax {
+        background-image: url(../../../assets/img/bg.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+    }
+    .selogan {
+        padding-top: 10%;
+        h1 {
+            color: #faf0e6;
+        }
+        .btn1 {
+            background-color: #28d146;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 50px;
+        }
+        .btn1:hover {
+            background-color: #19a032;
+        }
+    }
+}
