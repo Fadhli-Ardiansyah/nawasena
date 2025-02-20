@@ -1,7 +1,5 @@
 import { Col, Row } from "react-bootstrap";
 import "./style/footer.css";
-import gnkTransparan from "../../../src/assets/img/gnkTransparan.png";
-import Tile from "../../assets/img/tile.svg";
 
 const Footer = () => {
     return (
