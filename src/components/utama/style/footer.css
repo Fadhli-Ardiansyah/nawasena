@@ -1,11 +1,16 @@
 .footer {
-    color: #faf0e6;
-    background-color: #00008b;
+    color: #bfbfbf;
+    background-color: #1d1d47;
+    p {
+        color: rgb(157, 157, 157);
+    }
+    li {
+        color: rgb(157, 157, 157);
+    }
 }
 
 .tile {
     background-image: url(../../../assets/img/tile.svg);
-
     padding-top: 20px;
 }
 
@@ -18,11 +23,11 @@
 }
 
 .copyRight {
-    background-color: #0d0c5f;
+    background-color: #000034;
     height: 45px;
     padding: 10px 0 10px 0;
     p {
-        color: rgb(89, 89, 89);
+        color: rgb(157, 157, 157);
         line-height: 25px;
         font-size: 12px;
     }

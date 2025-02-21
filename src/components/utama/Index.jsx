@@ -1,11 +1,10 @@
 import Navbar from "./Navbar";
 import JumboTron from "./JumboTron";
 import ProfilPerusahaan from "./ProfilPerusahaan";
-import VisiMisi from "./VisiMisi";
 import Layanan from "./Layanan";
 import AlurKerja from "./AlurKerja";
 import Paralax from "./Paralax";
-import Footer from "./Bawah";
+import Footer from "./Footer";
 
 const Utama = () => {
     return (
@@ -13,10 +12,9 @@ const Utama = () => {
             <Navbar />
             <JumboTron />
             <ProfilPerusahaan />
-            {/* <VisiMisi /> */}
             <Layanan />
-            <AlurKerja />
             <Paralax />
+            <AlurKerja />
             <Footer />
         </>
     );
