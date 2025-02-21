@@ -21,17 +21,28 @@ const Footer = () => {
                                 <li>Lorem ipsum dolor sit amet.</li>
                             </ul>
                         </Col>
-                        <Col className="col-12 col-md-6 mb-2 sosial">
+                        <Col className="col-12 col-md-6 mb-2">
                             <h6>Alamat Head Office</h6>
-                            <p>
-                                Komp. Puri Anggrek Blok F11 No.1, Kel. Teritih,
-                                Kec. Walantaka, Kota Serang - Prov. Banten
-                            </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Komp. Puri Anggrek Blok F11 No.1, Kel.
+                                        Teritih, Kec. Walantaka, Kota Serang -
+                                        Prov. Banten
+                                    </p>
+                                </li>
+                            </ul>
+
                             <h6>Alamat Workshop</h6>
-                            <p>
-                                Jl. Syekh Moh. Nawawi Albantani, Kel. Sukajaya,
-                                Kec. Curug, Kota Serang - Prov. Banten
-                            </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Jl. Syekh Moh. Nawawi Albantani, Kel.
+                                        Sukajaya, Kec. Curug, Kota Serang -
+                                        Prov. Banten
+                                    </p>
+                                </li>
+                            </ul>
                             <ul>
                                 <li>
                                     <span className="bi bi-whatsapp"></span> +62
