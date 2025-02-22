@@ -1,18 +1,19 @@
 import "./style/navbar.css";
 import logo from "../../assets/img/logoTerbaru.jpg";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Navbar = () => {
-    const navigate = useNavigate();
     return (
         <div className="fixed-top shadow-sm">
             <nav className="navbar navbar-expand-lg ">
                 <div className="container">
-                    <a href="/">
-                        <img
-                            src={logo}
-                            alt="logoPerusahaan"
-                            className=" navbar-brand"
-                        />
+                    <a>
+                        <Link className="link" to="/">
+                            <img
+                                src={logo}
+                                alt="logoPerusahaan"
+                                className=" navbar-brand"
+                            />
+                        </Link>
                     </a>
                     <div
                         className="offcanvas offcanvas-start"
@@ -36,8 +37,6 @@ const Navbar = () => {
                                 <li className="nav-item dropdown">
                                     <a
                                         className="nav-link dropdown-toggle"
-                                        href="#"
-                                        onClick={() => navigate("")}
                                         role="button"
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false">
@@ -45,26 +44,17 @@ const Navbar = () => {
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li>
-                                            <a
-                                                className="dropdown-item"
-                                                href="#"
-                                                onClick={() => navigate("")}>
+                                            <a className="dropdown-item">
                                                 Profil Perusahaan
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                className="dropdown-item"
-                                                href="#"
-                                                onClick={() => navigate("")}>
+                                            <a className="dropdown-item">
                                                 Portofolio
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                className="dropdown-item"
-                                                href="#"
-                                                onClick={() => navigate("")}>
+                                            <a className="dropdown-item">
                                                 karir
                                             </a>
                                         </li>
@@ -75,8 +65,6 @@ const Navbar = () => {
                                 <li className="nav-item dropdown">
                                     <a
                                         className="nav-link dropdown-toggle"
-                                        href="#"
-                                        onClick={() => navigate("")}
                                         role="button"
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false">
@@ -84,68 +72,44 @@ const Navbar = () => {
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li>
-                                            <a
-                                                className="dropdown-item"
-                                                href="#"
-                                                onClick={() => navigate("")}>
+                                            <a className="dropdown-item">
                                                 Jasa pengurusan PBG
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                className="dropdown-item"
-                                                href="#"
-                                                onClick={() => navigate("")}>
+                                            <a className="dropdown-item">
                                                 Jasa Pengurusan SLF
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                className="dropdown-item"
-                                                href="#"
-                                                onClick={() => navigate("")}>
+                                            <a className="dropdown-item">
                                                 Jasa perencanaan Arsitektur,
                                                 Struktur, Dan MEP
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                className="dropdown-item"
-                                                href="#"
-                                                onClick={() => navigate("")}>
+                                            <a className="dropdown-item">
                                                 Jasa Pengurusan Soil Test
                                                 Investigation
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                className="dropdown-item"
-                                                href="#"
-                                                onClick={() => navigate("")}>
+                                            <a className="dropdown-item">
                                                 Jasa Pengurusan Izin Lingkungan
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                className="dropdown-item"
-                                                href="#"
-                                                onClick={() => navigate("")}>
+                                            <a className="dropdown-item">
                                                 Jasa Pengurusan SIPA
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                className="dropdown-item"
-                                                href="#"
-                                                onClick={() => navigate("")}>
+                                            <a className="dropdown-item">
                                                 Jasa Pengurusan Peil Banjir
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                className="dropdown-item"
-                                                href="#"
-                                                onClick={() => navigate("")}>
+                                            <a className="dropdown-item">
                                                 Jasa Pembuatan Master Plan
                                                 Kawasan Pabrik
                                             </a>
@@ -153,20 +117,12 @@ const Navbar = () => {
                                     </ul>
                                 </li>
                             </ul>
-                            <a
-                                className="nav-link"
-                                href="#"
-                                onClick={() => navigate("")}>
-                                Galeri
-                            </a>
-                            <a
-                                className="nav-link"
-                                href="#"
-                                onClick={() => navigate("")}>
-                                Artikel
-                            </a>
-                            <a className="nav-link" href="/hubungikami">
-                                Hubungi kami
+                            <a className="nav-link">Galeri</a>
+                            <a className="nav-link">Artikel</a>
+                            <a className="nav-link">
+                                <Link className="link" to="/hubungikami">
+                                    Hubungi kami
+                                </Link>
                             </a>
                         </div>
                     </div>

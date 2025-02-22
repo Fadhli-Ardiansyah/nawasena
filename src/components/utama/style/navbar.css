@@ -15,8 +15,12 @@
 .nav-link {
     margin-left: 15px;
     margin-right: 20px;
-    color: black;
 }
-.nav-link:hover {
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+.link:hover {
     color: var(--teks);
 }
