@@ -4,7 +4,7 @@ import img1 from "../../assets/img/workhouse.png";
 
 const ProfilPerusahaan = () => {
     return (
-        <section className="profilPerusahaan">
+        <section id="profilUtama" className="profilPerusahaan">
             <div className="container">
                 <h1 className=" text-center">Profil Perusahaan</h1>
                 <div className="container">

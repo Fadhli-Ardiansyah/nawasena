@@ -1,15 +1,10 @@
 import "./style/jumbotron.css";
 
 const JumboTron = () => {
-    const toWa = () => {
-        const wa = "https://wa.me/6282310925005";
-        window.open(wa, "_blank");
-        return;
-    };
     return (
         <section className="bgJumbotron ">
             <div className="jumbotron text-center">
-                <div className="container">
+                <div className="container heading">
                     <h1 className="display-3">
                         <span className="firstTeks">GRIYA NAWASENA</span>{" "}
                         KONSULTAN
@@ -19,12 +14,11 @@ const JumboTron = () => {
                         CONSULTANT
                     </p>
 
-                    <button
-                        type="button"
-                        className="btn1 btn "
-                        onClick={() => toWa()}>
-                        <i class="bi bi-whatsapp"></i> Hubungi Sekarang
-                    </button>
+                    <h2 className="arrow ">
+                        <a href="#profilUtama">
+                            <i class="bi bi-arrow-down "></i>
+                        </a>
+                    </h2>
                 </div>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -5 1440 320">

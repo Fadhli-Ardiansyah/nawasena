@@ -1,3 +1,4 @@
+import BtnWhatsapp from "../../fragments/btnWhatsapp";
 import "./style/paralax.css";
 
 const Paralax = () => {
@@ -7,15 +8,11 @@ const Paralax = () => {
                 <div className="container text-center">
                     <div className="selogan">
                         <h1>
-                            Hubungi Kami Sekarang Juga Dan Dapatkan Konsultasi
-                            Gratis Dari Para Ahli SLF, PBG, Dan Arsitektur
+                            Jangan Ragu Untuk Hubungi Kami Sekarang Juga Dan
+                            Dapatkan Konsultasi Gratis Dari Para Ahli SLF, PBG,
+                            Dan Arsitektur
                         </h1>
-                        <button
-                            type="button"
-                            className="btn1 btn "
-                            onClick={() => toWa()}>
-                            <i class="bi bi-whatsapp"></i> Hubungi Sekarang
-                        </button>
+                        <BtnWhatsapp />
                     </div>
                 </div>
             </div>

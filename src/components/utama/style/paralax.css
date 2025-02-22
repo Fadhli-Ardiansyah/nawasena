@@ -8,19 +8,19 @@
         height: 400px;
     }
     .selogan {
-        padding-top: 10%;
         h1 {
             color: #faf0e6;
         }
-        .btn1 {
-            background-color: #28d146;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 50px;
+    }
+    @media (max-width: 768px) {
+        .selogan {
+            padding-top: 20%;
         }
-        .btn1:hover {
-            background-color: #19a032;
+    }
+
+    @media (min-width: 768px) {
+        .selogan {
+            padding-top: 10%;
         }
     }
 }
