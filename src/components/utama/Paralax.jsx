@@ -1,4 +1,4 @@
-import BtnWhatsapp from "../../fragments/btnWhatsapp";
+import BtnWhatsapp from "../../fragments/BtnWhatsapp";
 import "./style/paralax.css";
 
 const Paralax = () => {
