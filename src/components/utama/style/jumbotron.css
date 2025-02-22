@@ -41,7 +41,7 @@
 
 .arrow {
     a {
-        background-color: var(--bg);
+        background-color: rgba(245, 245, 245, 0.856);
         padding: 0 5px 0 5px;
         border-radius: 50%;
         i {

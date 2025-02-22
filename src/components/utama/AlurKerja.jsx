@@ -25,27 +25,35 @@ const AlurKerja = () => {
                 <Row>
                     <FragmentAlurKerja
                         judul="1. Isi formulir"
-                        pesan="Pemohon dapat mengisi formulir online yang telah tersedia di laman website GNK. Harap mengisi secara lengkap dan benar, termasuk juga alamat surat elektronik (email) dan nomor telepon aktif."
+                        pesan="Pengisian Formulir
+                        Pemohon diminta untuk mengisi formulir secara online melalui website GNK. Pastikan data yang
+                        diinput lengkap dan benar, termasuk alamat email serta nomor telepon yang aktif.
+"
                     />
                     <FragmentAlurKerja
                         judul="2. Verifikasi data"
-                        pesan="Tim GNK akan melakukan verifikasi data sesuai dengan formulir yang telah dikirim pemohon. Proses verifikasi akan menggunakan surat elektronik (email) dan telepon."
+                        pesan="Tim GNK akan meninjau dan memverifikasi informasi yang dikirim oleh pemohon. Verifikasi ini dilakukan melalui email dan telepon untuk memastikan keakuratan data.
+"
                     />
                     <FragmentAlurKerja
-                        judul="3. Negosiasi"
-                        pesan="Pemohon akan mendapatkan harga penawaran beserta Rencana Program dan jadwal pengerjaa kegiatan. Pemohon dapat melakukan proses negosiasi langsung bersama tim GNK."
+                        judul="3.Diskusi & negosiasi"
+                        pesan="Pemohon akan menerima rincian harga, rencana kerja, serta jadwal pelaksanaan. Jika diperlukan, pemohon dapat berdiskusi dan bernegosiasi langsung dengan tim GNK.
+"
                     />
                     <FragmentAlurKerja
                         judul="4. Tanda tangan kontrak"
-                        pesan="Akan diterbitkan PO (Purchase Order) untuk GNK atau Penandatanganan Surat Perjanjian Kerja/ Kontrak. Pemohon dapat melakukan pembayaran termin pertama melalui rekening GNK yang terdaftar."
+                        pesan="Setelah kesepakatan tercapai, GNK akan menerbitkan Purchase Order (PO) atau Surat Perjanjian Kerja. Pemohon diwajibkan melakukan pembayaran termin pertama ke rekening GNK yang terdaftar.
+
+"
                     />
                     <FragmentAlurKerja
                         judul="5. Pekerjaan dimulai"
-                        pesan="Pemohon dapat menyetujui Surat Permohonan Survei Lapangan yang dikirimkan GNK. Selanjutnya, tim GNK akan melakukan pekerjaan sesuai tahapan dan jadwal yang telah disepakati."
+                        pesan="Pemohon akan menerima dan menyetujui Surat Permohonan Survei Lapangan sebelum pekerjaan dimulai. Tim GNK kemudian akan menjalankan pekerjaan sesuai dengan jadwal yang telah disepakati.
+"
                     />
                     <FragmentAlurKerja
                         judul="6. Serah terima hasil pekerjaan"
-                        pesan="Tim GNK akan menyerahkan soft file hasil pekerjaan. Jika proses pembayaran telah diselesaikan, maka akan dilakukan serah terima cetak dokumen/ hard file hasil pekerjaan."
+                        pesan="GNK akan menyerahkan file hasil pekerjaan dalam bentuk soft copy. Jika pembayaran telah selesai, pemohon juga dapat menerima cetak dokumen atau hard copy hasil pekerjaan"
                     />
                 </Row>
             </div>

@@ -14,11 +14,11 @@ const JumboTron = () => {
                         CONSULTANT
                     </p>
 
-                    <h2 className="arrow ">
+                    <h3 className="arrow ">
                         <a href="#profilUtama">
                             <i class="bi bi-arrow-down "></i>
                         </a>
-                    </h2>
+                    </h3>
                 </div>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -5 1440 320">
