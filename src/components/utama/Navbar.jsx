@@ -1,19 +1,17 @@
 import "./style/navbar.css";
 import logo from "../../assets/img/logoTerbaru.jpg";
 import { useNavigate } from "react-router-dom";
-
 const Navbar = () => {
     const navigate = useNavigate();
     return (
         <div className="fixed-top shadow-sm">
             <nav className="navbar navbar-expand-lg ">
                 <div className="container">
-                    <a href="">
+                    <a href="/">
                         <img
                             src={logo}
                             alt="logoPerusahaan"
                             className=" navbar-brand"
-                            onClick={() => navigate("/")}
                         />
                     </a>
                     <div
@@ -167,10 +165,7 @@ const Navbar = () => {
                                 onClick={() => navigate("")}>
                                 Artikel
                             </a>
-                            <a
-                                className="nav-link"
-                                href=""
-                                onClick={() => navigate("/hubungiKami")}>
+                            <a className="nav-link" href="/hubungikami">
                                 Hubungi kami
                             </a>
                         </div>
